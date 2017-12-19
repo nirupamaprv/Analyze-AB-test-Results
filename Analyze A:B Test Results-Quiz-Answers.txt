@@ -1,0 +1,67 @@
+Quiz 1: Understanding the Dataset
+DESCRIPTION
+VALUE
+The number of rows in the dataset.
+294478
+The number of unique users in the dataset.
+290584
+The proportion of users converted.
+12%
+The number of times the new_page and treatment don't line up.
+3893
+Do any of the rows have missing values?
+No
+
+
+Quiz 2: Messy Data
+In this case, how should we handle the rows where the landing_page and group columns don't align?
+Remove these rows.
+
+
+Quiz 3: Updated DataFrame
+QUIZ QUESTION
+Match each description to the correct corresponding value.
+DESCRIPTION
+VALUE
+The number of unique ids in df2.
+290584
+The user_id for the non-unique id in df2.
+773192
+The landing_page for the non-unique id.
+new_page
+The group for the non-unique id.
+treatment
+The value of converted column for the non-unique id.
+0
+
+
+Quiz 4: Probability
+QUIZ QUESTION
+Use your solutions to Question 4. in the notebook to match each description to its corresponding value.
+DESCRIPTION
+VALUE
+Probability of converting regardless of page.
+0.1196
+Given an individual received the control page, the probability of converting.
+0.1204
+Given that an individual received the treatment, the probability of converting.
+0.1188
+The probability of receiving the new page.
+0.5001
+
+
+Quiz 5: Hypothesis Testing
+QUIZ QUESTION
+Use your solutions to Part II Question 2 in the notebook to assist in this quiz.
+DESCRIPTION
+SOLUTION
+p_new under the null.
+0.1196
+p_old under the null.
+0.1196
+n_new
+145310
+n_old
+145274
+p_new - p_old under the null.
+0
