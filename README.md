@@ -1,6 +1,6 @@
 # Analyze-AB-test-Results
 
-## Blog Versio
+## Blog Version
 https://wordpress.com/post/prvnirupama.wordpress.com/768
 
 ## Summary
